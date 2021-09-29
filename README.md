@@ -1,23 +1,27 @@
 # Ixpandit-test
-Este es el analysis que desarrolle para el test de ML de Ixpandit
+This is the analysis I developed for the ML test in Ixpandit.
 
-Los 4 puntos pedidos fueron desarrollados en 4 Jupyter Notebooks usando un entorno de miniconda.\
-En el repositorio se encuentra el archivo `environment.yml` para poder instalar las librerias.\
-A continuacion las instrucciones para descargar miniconda y crear dicho entorno.
+The 4 requested points were developed on 4 Jupyter Notebooks using a miniconda environment.\
+In the repository you can find the `environment.yml` file to install the libraries.\
+Here are the instructions to download miniconda and create such an environment.
 
-Debido al tamano del archivo `data.csv`, no fue incluido en el repo. Asumo que los evaluadores
-cuentan con dicho archivo.
+Due to the size of the `data.csv` file, it was not included in the repo. I assume that the evaluators
+have such a file.
 
-1. Análisis exploratorio de datos:
+## Objective:
+Given data collected from paid and unpaid loans, the goal is to predict whether a customer will pay or not.\
+Below are the 4 items required, each with the corresponding code developed:
+
+1. Exploratory data analysis:
     - Exploratory data analysis.ipynb
-2. Desarrollo de un modelo predictivo:
+2. Development of a predictive model:
     - Data processing and Random Forest Classifier.ipynb
-3. Optimización de hiper parámetros:
+3. Optimization of hyper parameters:
     - Bayesian optimization for hyperparameters.ipynb
-4. Procesamiento de lenguaje natural:
+4. Natural language processing:
     - Word2Vec + K-means for titles feature extraction.ipynb
 
-## Instalacion
+## Installation
 <b># Installation of Miniconda from scratch</b>
 - Get and install Miniconda:
     1. `cd your_project/` (Miniconda packages might require a significant space ~Gbs)
