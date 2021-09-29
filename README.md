@@ -10,7 +10,7 @@ have such a file.
 
 ## Objective:
 Given data collected from paid and unpaid loans, the goal is to predict whether a customer will pay or not.\
-Below are the codes developed for the required items. They were performed in 48hs as specified by the test requirements.
+Below are the codes developed for the required items. The whole analysis was performed in 48hs as specified by the test requirements.
 
 1. Exploratory data analysis:
     - Exploratory data analysis.ipynb
